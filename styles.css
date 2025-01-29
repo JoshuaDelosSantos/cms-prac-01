@@ -19,6 +19,7 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
 
 header h1 {
@@ -29,7 +30,6 @@ header h1 {
     background-color: rgba(10, 15, 36, 0.8);
     border-radius: 10px;
     width: 100vw;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     height: 90vh;
 }
 
@@ -50,16 +50,58 @@ header h1 {
 
 #how-it-works {
     background-color: rgba(10, 15, 36, 0.8);
-    padding: 20px;
-    margin: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 0;
+}
+
+#the-works-container {
+    background-color: rgba(10, 15, 36, 0.95);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    height: parent;
+    border-radius: 25px;
+}
+
+#how-it-works h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 0;
+}
+
+.the-works {
+    text-align: center;
+    margin-top: 30px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.the-works-headings {
+    font-size:1.8em;
+}
+
+.the-works p {
+    font-size: 1.5em;
+    margin-top: -1em;
+    padding-bottom: 20px;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #features {
     background-color: #0a0f24;
-    padding: 20px;
-    margin: 20px;
+    margin-top: 0;
     border-radius: 10px;
     background-color: rgba(10, 15, 36, 0.8);
+}
+
+#features h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10vh;
 }
