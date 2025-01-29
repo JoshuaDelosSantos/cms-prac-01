@@ -12,16 +12,28 @@ body {
     color: #e0e0e0;
 }
 
+header {
+    background-color: rgba(10, 15, 36, 0.95);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header h1 {
+    padding-left: 30px;
+}
+
 #about {
-    background-color: #0a0f24;
+    background-color: rgba(10, 15, 36, 0.8);
     padding: 20px;
-    margin: 20px;
+    margin-top: 50vh;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #how-it-works {
-    background-color: #0a0f24;
+    background-color: rgba(10, 15, 36, 0.8);
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -33,5 +45,5 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(10, 15, 36, 0.8);
 }
