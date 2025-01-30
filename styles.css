@@ -22,8 +22,25 @@ header {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
 
-header h1 {
-    margin-left: 10vw;
+#header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta-button {
+    color: white;
+    padding: 22px;
+    background-color: #009E60;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
 }
 
 #about {
@@ -61,9 +78,11 @@ header h1 {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     height: parent;
     border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
 
 #how-it-works h2 {
@@ -75,7 +94,7 @@ header h1 {
 .the-works {
     text-align: center;
     margin-top: 30px;
-    width: 70vw;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
 }
